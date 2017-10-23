@@ -1,3 +1,24 @@
-<p>
-  contact works!
-</p>
+<div id="contact" class="p-3">
+  <div class="container border p-3">
+    <h1 class="mx-auto text-center">Contact</h1>
+    <form>
+      <div class="form-group">
+        <label for="name">Naam:</label>
+        <input type="text" class="form-control" id="name" placeholder="Voer je naam in" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="text" class="form-control" id="email" placeholder="bij@voorbeeld.nl" required>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Bericht:</label>
+        <textarea type="text" class="form-control" id="message" placeholder="Type hier je vraag of bericht" rows="3" required></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-success">Verstuur</button>
+
+    </form>
+  </div>
+</div>
