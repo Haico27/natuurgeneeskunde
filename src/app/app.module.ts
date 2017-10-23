@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { AlertModule } from 'ngx-bootstrap';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
@@ -25,7 +24,6 @@ import { NavigationComponent } from './components/navigation/navigation.componen
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AlertModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]
