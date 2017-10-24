@@ -1,11 +1,11 @@
-nav a {
+nav div ul li a {
   color: #33cc33;
-  padding: .1em .5em;
+  padding: .1em 1em;
   text-decoration: none;
   margin: .5em;
   display: inline-block;
 }
 
-nav a.active {
+nav div ul li a.active {
   color: #006600;
 }
